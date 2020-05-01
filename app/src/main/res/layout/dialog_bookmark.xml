@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparentBlack"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin10"
+        android:background="@drawable/dlg_white_brbl_c15"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin5"
+            android:layout_marginLeft="@dimen/margin5"
+            android:layout_marginEnd="@dimen/margin5"
+            android:layout_marginRight="@dimen/margin5"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/def_padding"
+            android:paddingRight="@dimen/def_padding">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin10"
+                android:gravity="center"
+                android:paddingLeft="@dimen/padding50"
+                android:paddingRight="@dimen/padding50"
+                android:text="@string/add_bookmark"
+                android:textColor="@color/bg_grad_end_g1"
+                android:textSize="@dimen/text22"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin5"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.4"
+                    android:text="@string/para_name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/def_text_size" />
+
+                <com.alquran.assudais.Utilities.AutoScrollableTextView
+                    android:id="@+id/txt_para_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.6"
+                    android:text="@string/para_name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/def_lbl_size"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin10"
+                android:gravity="center"
+                android:paddingLeft="@dimen/def_padding"
+                android:paddingRight="@dimen/def_padding"
+                android:text="@string/pls_enter_any_following"
+                android:textColor="@color/bg_grad_end_g1"
+                android:textSize="@dimen/def_text_size"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin5"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.4"
+                    android:text="@string/ayat_num"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/def_text_size" />
+
+                <EditText
+                    android:id="@+id/edt_ayat_num"
+                    android:layout_width="0dp"
+                    android:imeOptions="actionDone"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.6"
+                    android:hint="@string/enter_ayah_num"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/def_text_size"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin5"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.4"
+                    android:text="@string/ruku_num"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/def_text_size" />
+
+                <EditText
+                    android:id="@+id/edt_ruku_num"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.6"
+                    android:hint="@string/enter_ruku_num"
+                    android:inputType="number"
+                    android:imeOptions="actionDone"
+                    android:maxLength="2"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/def_text_size"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin5"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.4"
+                    android:text="@string/page_num"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/def_text_size" />
+
+                <EditText
+                    android:id="@+id/edt_page_num"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.6"
+                    android:hint="@string/enter_page_num"
+                    android:inputType="number"
+                    android:imeOptions="actionDone"
+                    android:maxLength="3"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/def_text_size"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/btn_add_bookmark"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/def_btn_height"
+                android:layout_marginLeft="@dimen/margin5"
+                android:layout_marginTop="@dimen/def_margin"
+                android:layout_marginRight="@dimen/margin5"
+                android:layout_marginBottom="@dimen/margin5"
+                android:layout_weight="0.5"
+                android:background="@drawable/rec_green_white_c10"
+                android:text="@string/add_bookmark"
+                android:textAllCaps="false"
+                android:textColor="@color/bg_grad_end_g1"
+                android:textSize="@dimen/def_text_size"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_close"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/def_btn_height"
+                android:layout_marginLeft="@dimen/margin5"
+                android:layout_marginTop="@dimen/def_margin"
+                android:layout_marginRight="@dimen/margin5"
+                android:layout_marginBottom="@dimen/margin5"
+                android:layout_weight="0.5"
+                android:background="@drawable/rec_green_white_c10"
+                android:text="@string/close"
+                android:textAllCaps="false"
+                android:textColor="@color/bg_grad_end_g1"
+                android:textSize="@dimen/def_text_size"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

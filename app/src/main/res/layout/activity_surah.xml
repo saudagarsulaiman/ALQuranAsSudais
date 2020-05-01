@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    android:keepScreenOn="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rview_surah"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/lnr_player_info"
+            android:layout_margin="10dp" />
+
+        <LinearLayout
+            android:id="@+id/lnr_player_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:visibility="gone">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height5"
+                android:layout_marginBottom="@dimen/def_margin"
+                android:background="@color/bg_grad_end_g1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/txt_cur_time"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.4"
+                    android:gravity="center"
+                    android:text="0:0"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <com.alquran.assudais.Utilities.AutoScrollableTextView
+                    android:id="@+id/txt_surah_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.2"
+                    android:gravity="center"
+                    android:text="@string/surah_name"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_total_time"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.4"
+                    android:gravity="center"
+                    android:text="0:43"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <SeekBar
+                android:id="@+id/seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:thumbTint="@color/bg_grad_end_g1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height40"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/btn_previous"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin5"
+                    android:layout_marginLeft="@dimen/margin5"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/rec_green_white_c10"
+                    android:text="@string/rewind"
+                    android:textColor="@color/bg_grad_end_g1"
+                    android:textSize="@dimen/def_lbl_size"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_pause"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin5"
+                    android:layout_marginLeft="@dimen/margin5"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/rec_green_grey_c10"
+                    android:text="@string/pause"
+                    android:textColor="@color/bg_grad_end_g1"
+                    android:textSize="@dimen/def_lbl_size"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_play"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin5"
+                    android:layout_marginLeft="@dimen/margin5"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/rec_green_white_c10"
+                    android:text="@string/play"
+                    android:textColor="@color/bg_grad_end_g1"
+                    android:textSize="@dimen/def_lbl_size"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_next"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin5"
+                    android:layout_marginLeft="@dimen/margin5"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/rec_green_white_c10"
+                    android:text="@string/forward"
+                    android:textColor="@color/bg_grad_end_g1"
+                    android:textSize="@dimen/def_lbl_size"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

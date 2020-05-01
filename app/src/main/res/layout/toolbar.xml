@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/def_btn_height"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/padding10"
+        android:paddingEnd="@dimen/def_padding">
+
+        <ImageView
+            android:id="@+id/img_tlbr_back"
+            android:layout_width="@dimen/width25"
+            android:layout_height="@dimen/height25"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:src="@drawable/back_white" />
+
+        <com.alquran.assudais.Utilities.AutoScrollableTextView
+            android:id="@+id/txt_tlbr_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_toStartOf="@+id/img_tlbr_bookmark"
+            android:layout_toEndOf="@+id/img_tlbr_back"
+            android:gravity="center"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/def_lbl_size"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img_tlbr_bookmark"
+            android:layout_width="@dimen/width25"
+            android:layout_height="@dimen/height25"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:src="@drawable/bookmark"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+</LinearLayout>

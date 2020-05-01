@@ -1,0 +1,8 @@
+
+squid:S1488%"bImmediately return this expression instead of assigning it to the temporary variable "viewHolder".(Ûóşx8æ‰È¦-
+|squid:S00116C"XRename this field "txt_romanName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£³¤†úÿÿÿÿ8ì‡º§-
+rsquid:S00116E"SRename this field "txt_pnum" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ÉÓ–8ì‡º§-
+wsquid:S00116G"SRename this field "lnr_item" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ˆ«Şúÿÿÿÿ8ÕÚ‡º§-
+5squid:S2176?"Rename this class.(Â×Öúÿÿÿÿ8Ëş‡º§-
+xsquid:S00116A"YRename this field "txt_arabicName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úİß¡8Ëş‡º§-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÊŞ«üşÿÿÿÿ

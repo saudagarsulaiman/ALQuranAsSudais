@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin10"
+        android:background="@drawable/dlg_white_trtl_c15"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/margin10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin5"
+            android:layout_marginLeft="@dimen/margin5"
+            android:layout_marginEnd="@dimen/margin5"
+            android:layout_marginRight="@dimen/margin5"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/def_padding"
+            android:paddingRight="@dimen/def_padding">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin10"
+                android:gravity="center"
+                android:paddingLeft="@dimen/padding50"
+                android:paddingRight="@dimen/padding50"
+                android:text="@string/app_info"
+                android:textColor="@color/bg_grad_end_g1"
+                android:textSize="@dimen/text22"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/def_margin"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.4"
+                    android:text="@string/app_icon"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/def_text_size" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/height40"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.2"
+                    android:src="@drawable/app_icon"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin5"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.4"
+                    android:text="@string/appp_name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/def_text_size" />
+
+                <com.alquran.assudais.Utilities.AutoScrollableTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.6"
+                    android:text="@string/app_name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/def_lbl_size"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin5"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.4"
+                    android:text="@string/feature"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/def_text_size" />
+
+                <com.alquran.assudais.Utilities.AutoScrollableTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.6"
+                    android:text="@string/features"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/def_lbl_size"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin5"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.4"
+                    android:text="@string/whats_New"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/def_text_size" />
+
+                <com.alquran.assudais.Utilities.AutoScrollableTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.6"
+                    android:text="@string/new_feature"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/def_lbl_size"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin5"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.4"
+                    android:text="@string/version"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/def_text_size" />
+
+                <com.alquran.assudais.Utilities.AutoScrollableTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.6"
+                    android:text="@string/version_num"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/def_lbl_size"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin5"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.4"
+                    android:text="@string/privacy_policy"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/def_text_size" />
+
+                <com.alquran.assudais.Utilities.AutoScrollableTextView
+                    android:id="@+id/txt_privacy_policy"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.6"
+                    android:text="@string/my_privacy_policy"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/def_lbl_size"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin5"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.4"
+                    android:text="@string/website"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/def_text_size" />
+
+                <com.alquran.assudais.Utilities.AutoScrollableTextView
+                    android:id="@+id/txt_website"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.6"
+                    android:text="@string/my_website"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/def_lbl_size"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/def_btn_height"
+            android:layout_marginLeft="@dimen/margin5"
+            android:layout_marginTop="@dimen/def_margin"
+            android:layout_marginRight="@dimen/margin5"
+            android:layout_marginBottom="@dimen/margin5"
+            android:background="@drawable/rec_green_white_c10"
+            android:text="@string/close"
+            android:textAllCaps="false"
+            android:textColor="@color/bg_grad_end_g1"
+            android:textSize="@dimen/def_text_size"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
