@@ -445,7 +445,6 @@ public final class CommonUtilities {
         return mPlayer2;
     }
 
-/*
     public static String getSurahRomanTitles(int i) {
         String[] romanTitles = {"Al-Fatihah", "Al-Baqarah", "Al-'Imran", "An-Nisa'", "Al-Ma'idah", "Al-An'am", "Al-A'raf", "Al-Anfal",
                 "Al-Bara'at / At-Taubah", "Yunus", "Hud", "Yusuf", "Ar-Ra'd", "Ibrahim", "Al-Hijr", "An-Nahl", "al-Isra'", "Al-Kahf",
@@ -496,60 +495,13 @@ public final class CommonUtilities {
         return englishTitles[i];
     }
 
-    public static String getSurahNumber(int i) {
-        String[] Number = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21",
-                "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44",
-                "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66",
-                "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89",
-                "90", "91", "92", "93", "94", "95", "96", "97", "98", "99", "100", "101", "102", "103", "104", "105", "106", "107", "108", "109", "110",
-                "111", "112", "113", "114"};
-        return Number[i];
-    }
-*/
-
-
-    public static String getSurahRomanTitles(int i) {
-        String[] romanTitles = {"Al-Fatihah", "Al-Baqarah", "An-Nisa'", "Yusuf", "Ibrahim", "Al-Kahf", "Maryam", "Al-Mu'minun", "Al-Furqan", "As-Sajdah",
-                "Ya Sin", "Al-Ghafir / Al-Mu'min", "Ad-Dukhan", "Al-Jathiyah", "Muhammad", "Qaf", "Ar-Rahman", "Al-Waqi’ah", "Al-Mujadilah", "Al-Hashr", "Al-Mumtahanah",
-                "As-Saff", "Al-Jumu'ah", "Al-Munafiqun", "At-Taghabun", "At-Talaq", "At-Tahrim", "Al-Mulk", "Nuh", "Al-Jinn", "Al-Qiyamah",
-                "Al-Insan / Ad-Dahr", "An-Naba'", "An-Nazi'at", "'Abasa", "At-Takwir", "Al-Infitar", "Al-Mutaffifin", "Al-Inshiqaq", "Al-Buruj", "At-Tariq",
-                "Al-A'la", "Al-Ghashiyah", "Al-Fajr", "Al-Balad", "Ash-Shams", "Al-Lail", "Ad-Duha", "Al-Inshirah", "At-Tin", "Al-'Alaq", "Al-Qadr",
-                "Al-Bayyinah", "Al-Zilzal", "Al-'Adiyat", "Al-Qari'ah", "At-Takathur", "Al-'Asr", "Al-Humazah", "Al-Fil", "Al-Quraish", "Al-Ma'un",
-                "Al-Kauthar", "Al-Kafirun", "An-Nasr", "Al-Masad / Al-Lahab", "Al-Ikhlas / At-Tawhid", "Al-Falaq", "An-Nas"};
-        return romanTitles[i];
-    }
-
-    public static String getSurahArabicTitles(int i) {
-        String[] arabicTitles = {"الْفَاتِحَة", "البَقَرة", "النِّســاء", "يُوسُف", "اِبراهيم", "الكَهْف", "مَريَم", "المؤمِنون", "الفُرقان", "السَّـجْدة",
-                "يــس", "المُؤْمِن", "الدُّخان", "الجاثِية", "مُحَمّد (ص)", "ق", "الرَّحمن", "الواقعة",
-                "المُجادَلة", "الحَشْر", "المُمتَحَنة", "الصَّف", "الجُّمُعة", "المُنافِقُون", "التَّغابُن", "الطَّلاق", "التَّحْريم", "المُلْك",
-                "نُوح", "الجِنّ", "القِيامَة", "الدَّهر (الإنسان)", "النـَّبأ'",
-                "النـّازِعات", "عَبَس", "التـَّكْوير", "الإنفِطار", "المُطـَفِّفين", "الإنشِقاق", "البُروج", "الطّارق", "الأعلی", "الغاشِيَة", "الفَجْر",
-                "البَـلـَد", "الشــَّمْس", "اللـَّيل", "الضُّحی", "الإنشـِراح", "التـِّين", "العَلـَق", "القـَدر", "البَيِّنَة", "الزِّلزال", "العـَاديات",
-                "القارِعَة", "التَكاثـُر", "العَصْر", "الهُمَزَة", "الفيل", "قـُرَيْش", "الماعُون", "الكـَوْثَر", "الكافِرون", "النـَّصر", "تَبَّت",
-                "الإخـْلاص (التـَّوحيد)", "الفـَلَق", "النـَّاس"};
-        return arabicTitles[i];
-    }
-
-    public static String getSurahEnglishTitles(int i) {
-        String[] englishTitles = {"The Opening", "The Cow", "The Women", "Yusuf", "Ibrahim", "The Cave", "Maryam", "The Believers", "The Criterion",
-                "The Prostration", "Ya Sin", "The Forgiver", "The Smoke", "The Kneeling", "Muhammad", "Qaf", "The Most Gracious", "The Event", "The Pleading",
-                "The Gathering", "The Tested", "The Row", "Friday", "The Hypocrites", "The Loss & Gain",
-                "The Divorce", "The Prohibition", "The Kingdom", "Nuh", "The Jinn",
-                "The Resurrection", "The Human / The Time", "The Great News", "Those Who Pull Out",
-                "He Frowned", "The Overthrowing", "The Cleaving", "Those Who Deal in Fraud", "The Splitting Asunder", "The Stars",
-                "The Nightcomer", "The Most High", "The Overwhelming", "The Dawn", "The City", "The Sun", "The Night", "The Forenoon",
-                "The Opening Forth", "The Fig", "The Clot", "The Night of Decree", "The Proof", "The Earthquake", "The Runners",
-                "The Striking Hour", "The Piling Up", "The Time", "The Slanderer", "The Elephant", "Quraish", "The Assistance",
-                "The River of Abundance", "The Disbelievers", "The Help", "The Palm Fiber", "The Sincerity", "The Daybreak", "Mankind"};
-        return englishTitles[i];
-    }
-
     public static int getSurahNumber(int i) {
-        int[] Number = {1, 2, 4, 12, 14, 18, 19, 23, 25, 32, 36, 40, 44, 45, 47, 50, 55, 56, 58, 59, 60, 61,
-                62, 63, 64, 65, 66, 67, 71, 72, 75, 76, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90,
-                91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111,
-                112, 113, 114};
+        int[] Number = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
+                22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44,
+                45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66,
+                67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89,
+                90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110,
+                111, 112, 113, 114};
         return Number[i];
     }
 

@@ -88,13 +88,8 @@ public class SurahActivity extends AppCompatActivity {
             CommonUtilities.mediaPlayer = MediaPlayer.create(this, R.raw.s1);
         }
         allSurahList = new ArrayList<>();
-   /*     for (int i = 1; i < 115; i++) {
-            SurahName surahName = new SurahName();
-            surahName.setSurahName("s" + i);
-            surahName.setSurahNum(i);
-            allSurahList.add(surahName);
-        }*/
-        for (int i = 0; i < 69; i++) {
+
+        for (int i = 0; i < 114; i++) {
             SurahName surahName = new SurahName();
             surahName.setSurahName("s" + CommonUtilities.getSurahNumber(i));
             surahName.setSurahNum(CommonUtilities.getSurahNumber(i));
