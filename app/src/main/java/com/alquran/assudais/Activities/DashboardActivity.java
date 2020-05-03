@@ -325,7 +325,6 @@ public class DashboardActivity extends AppCompatActivity {
                     Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.parse("mailto:" + email));
                     emailIntent.putExtra(Intent.EXTRA_SUBJECT, "AlQuran App Feedback");
                     emailIntent.putExtra(Intent.EXTRA_TEXT, "ٱلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّٰهِ وَبَرَكَاتُه");
-//emailIntent.putExtra(Intent.EXTRA_HTML_TEXT, body); //If you are using HTML in your body text
                     startActivity(Intent.createChooser(emailIntent, "Choose Title"));
                 } catch (Exception e) {
                     Toast.makeText(DashboardActivity.this, getResources().getString(R.string.pls_try_again), Toast.LENGTH_LONG).show();
@@ -333,7 +332,6 @@ public class DashboardActivity extends AppCompatActivity {
                 }
             }
         });
-
 //                Displaying DialogPlus
         dialog.show();
     }

@@ -106,7 +106,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.4"
-                    android:text="@string/feature"
+                    android:text="@string/reciter"
                     android:textColor="@color/black"
                     android:textSize="@dimen/def_text_size" />
 
@@ -115,7 +115,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="0.6"
-                    android:text="@string/features"
+                    android:text="@string/recited_by"
                     android:textColor="@color/black"
                     android:textSize="@dimen/def_lbl_size"
                     android:textStyle="bold" />

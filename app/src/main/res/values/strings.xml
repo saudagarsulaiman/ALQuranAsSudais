@@ -16,7 +16,7 @@
     <string name="bkwd5sec">Backwarded 5 seconds</string>
     <string name="cant_bkwd5sec">Cannot backward 5 seconds</string>
     <string name="update_coming_soon">Update Coming Soon!!!</string>
-    <string name="slogan">Read or Listen Quran Offline</string>
+    <string name="slogan">Listen Quran Offline</string>
     <string name="coming_coon">Coming Soon!</string>
     <string name="ayah_reciters">Ayah Reciters</string>
     <string name="reciters">Reciters</string>
@@ -97,10 +97,13 @@
     <string name="download">Download :</string>
     <string name="install_app">Click To Install</string>
     <string name="pls_try_again">Please Try Again</string>
+    <string name="app_name1">Al Qur’an - Offline</string>
 
 
     <!--  Changes To Be Done When Refractoring  -->
-    <string name="app_name">Al Qur\'an As Sudais</string>
+    <string name="app_name">Al Qur\'an - Offline By "As Sudais"</string>
+    <string name="recited_by">Abd ar-Rahman ibn ʻAbd al-Aziz as-Sudais</string>
+    <string name="recited_by_name">Reciter : Abd ar-Rahman ibn ʻAbd al-Aziz as-Sudais</string>
     <string name="version_num">1.0</string>
     <string name="app_url">https://play.google.com/store/apps/details?id=com.alquran.assudais</string>
     <string name="my_privacy_policy">https://al-quran-as-sudais.flycricket.io/privacy.html</string>

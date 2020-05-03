@@ -12,23 +12,14 @@ import com.alquran.assudais.Utilities.MyApplication;
 
 public class SplashScreenActivity extends AppCompatActivity {
 
-/*
-    SharedPreferences sharedPreferences;
-    SharedPreferences.Editor editor;
-*/
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
 
-/*
-        sharedPreferences = getSharedPreferences(getResources().getString(R.string.app_name), MODE_PRIVATE);
-        editor = sharedPreferences.edit();
-*/
         final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.salaam);
 
-        if (/*sharedPreferences.getBoolean(CommonUtilities.SALAAMSOUND, true)*/MyApplication.isSALAAMSOUND()) {
+        if (MyApplication.isSALAAMSOUND()) {
             mediaPlayer.start();
         }
 

@@ -48,32 +48,25 @@ public class SimilarAppsListActivity extends AppCompatActivity {
             }
         });
 
-        linearLayoutManager = new LinearLayoutManager(SimilarAppsListActivity.this,RecyclerView.VERTICAL,false);
+        linearLayoutManager = new LinearLayoutManager(SimilarAppsListActivity.this, RecyclerView.VERTICAL, false);
         rview_similar_apps.setLayoutManager(linearLayoutManager);
 
     }
 
     private void setAppList() {
         allAppsList = new ArrayList<>();
-
+        allAppsList.add(new SimilarAppsList("Al Quran - Read or Listen Qur'an Offline", "https://play.google.com/store/apps/details?id=com.islam.alquran", R.drawable.alquran_read_listen_offline));
         allAppsList.add(new SimilarAppsList("Islam 360 - Prayer Times, Quran , Azan & Qibla", "https://play.google.com/store/apps/details?id=com.islam360&hl=en_IN", R.drawable.islam360));
         allAppsList.add(new SimilarAppsList("Al Quran MP3 - Quran Reading", "https://play.google.com/store/apps/details?id=com.QuranReading.qurannow", R.drawable.alquranmp3));
         allAppsList.add(new SimilarAppsList("iQuran Lite", "https://play.google.com/store/apps/details?id=com.guidedways.iQuran", R.drawable.iquranlite));
         allAppsList.add(new SimilarAppsList("Quran for Android", "https://play.google.com/store/apps/details?id=com.quran.labs.androidquran", R.drawable.quranforandroid));
         allAppsList.add(new SimilarAppsList("Surah Yasin", "https://play.google.com/store/apps/details?id=com.QuranReading.SurahYaseen", R.drawable.surahyasin));
         allAppsList.add(new SimilarAppsList("Hadith Collection - Sahih Bukhari , Muslim & More", "https://play.google.com/store/apps/details?id=com.quarterpi.hadithcollection", R.drawable.hadithcollection));
+        allAppsList.add(new SimilarAppsList("Al Sudais Full Quran Offline", "https://play.google.com/store/apps/details?id=com.andromo.dev391844.app455786", R.drawable.assudais));
         allAppsList.add(new SimilarAppsList("Life of Prophet Muhammad PBUH", "https://play.google.com/store/apps/details?id=com.quranreading.lifeofprophet", R.drawable.lifeofprophet));
         allAppsList.add(new SimilarAppsList("Athan: Ramadan 2020, Prayer Times, Azan & Al Quran", "https://play.google.com/store/apps/details?id=com.athan", R.drawable.athan));
         allAppsList.add(new SimilarAppsList("Haramain", "https://play.google.com/store/apps/details?id=com.quranicaudio.haramain", R.drawable.haramain));
-//        allAppsList.add(new SimilarAppsList("","",R.drawable));
-//        allAppsList.add(new SimilarAppsList("","",R.drawable));
-//        allAppsList.add(new SimilarAppsList("","",R.drawable));
-//        allAppsList.add(new SimilarAppsList("","",R.drawable));
-//        allAppsList.add(new SimilarAppsList("","",R.drawable));
-//        allAppsList.add(new SimilarAppsList("","",R.drawable));
-
-        paraListRAdapter= new SimilarAppListAdapter(SimilarAppsListActivity.this,allAppsList);
+        paraListRAdapter = new SimilarAppListAdapter(SimilarAppsListActivity.this, allAppsList);
         rview_similar_apps.setAdapter(paraListRAdapter);
-
     }
 }

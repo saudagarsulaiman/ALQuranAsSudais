@@ -114,10 +114,8 @@ public class SurahActivity extends AppCompatActivity {
                     selectedSurahNum = pos;
                     selectedSurahName = allSurahList.get(pos).getSurahName();
                     Toast.makeText(SurahActivity.this, getResources().getText(R.string.playing) + " : " + CommonUtilities.getSurahArabicTitles(selectedSurahNum), Toast.LENGTH_SHORT).show();
-
-                    if (CommonUtilities.mediaPlayer.isPlaying()) /*{*/
+                    if (CommonUtilities.mediaPlayer.isPlaying())
                         CommonUtilities.mediaPlayer.stop();
-
                     CommonUtilities.mediaPlayer = CommonUtilities.getSurah(SurahActivity.this, selectedSurahName);
                     lnr_player_info.setVisibility(View.VISIBLE);
                     media();
@@ -129,8 +127,6 @@ public class SurahActivity extends AppCompatActivity {
                         btn_play.setEnabled(true);
                         btn_pause.setBackgroundResource(R.drawable.rec_green_grey_c10);
                         btn_play.setBackgroundResource(R.drawable.rec_green_white_c10);
-
-
                     }
                 });
             }

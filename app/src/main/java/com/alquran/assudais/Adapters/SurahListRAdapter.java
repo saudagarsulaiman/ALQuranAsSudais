@@ -62,7 +62,7 @@ public class SurahListRAdapter extends RecyclerView.Adapter<SurahListRAdapter.Vi
 
     @Override
     public int getItemCount() {
-        return 69;
+        return 114;
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {

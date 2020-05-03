@@ -18,11 +18,6 @@ import com.alquran.assudais.R;
 public final class CommonUtilities {
 
     public static final String SALAAMSOUND = "SALAAMSOUND";
-    public static final String BOOKMARKEDPARA = "BOOKMARKEDPARA";
-    public static final String LASTREOPENDPARA = "LASTREOPENDPARA";
-    public static final String BOOKMARKEDRUKU = "BOOKMARKEDRUKU";
-    public static final String BOOKMARKEDAYAT = "BOOKMARKEDAYAT";
-    public static final String BOOKMARKEDPAGE = "BOOKMARKEDPAGE";
 
     public static boolean isConnectionAvailable(Context ctx) {
         //boolean bConnection = false;
@@ -66,18 +61,16 @@ public final class CommonUtilities {
             case "s1":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s1);
                 break;
-
             case "s2":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s2);
                 break;
-/*            case "s3":
+            case "s3":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s3);
                 break;
-                */
             case "s4":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s4);
                 break;
-/*             case "s5":
+            case "s5":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s5);
                 break;
             case "s6":
@@ -98,19 +91,15 @@ public final class CommonUtilities {
             case "s11":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s11);
                 break;
-*/
             case "s12":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s12);
                 break;
-/*
             case "s13":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s13);
                 break;
-*/
             case "s14":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s14);
                 break;
-/*
             case "s15":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s15);
                 break;
@@ -120,14 +109,12 @@ public final class CommonUtilities {
             case "s17":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s17);
                 break;
-*/
             case "s18":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s18);
                 break;
             case "s19":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s19);
                 break;
-/*
             case "s20":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s20);
                 break;
@@ -137,19 +124,15 @@ public final class CommonUtilities {
             case "s22":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s22);
                 break;
-*/
             case "s23":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s23);
                 break;
-/*
             case "s24":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s24);
                 break;
-*/
             case "s25":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s25);
                 break;
-/*
             case "s26":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s26);
                 break;
@@ -168,11 +151,9 @@ public final class CommonUtilities {
             case "s31":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s31);
                 break;
-*/
             case "s32":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s32);
                 break;
-/*
             case "s33":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s33);
                 break;
@@ -182,11 +163,9 @@ public final class CommonUtilities {
             case "s35":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s35);
                 break;
-*/
             case "s36":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s36);
                 break;
-/*
             case "s37":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s37);
                 break;
@@ -196,11 +175,9 @@ public final class CommonUtilities {
             case "s39":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s39);
                 break;
-*/
             case "s40":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s40);
                 break;
-/*
             case "s41":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s41);
                 break;
@@ -210,33 +187,27 @@ public final class CommonUtilities {
             case "s43":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s43);
                 break;
-*/
             case "s44":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s44);
                 break;
             case "s45":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s45);
                 break;
-/*
             case "s46":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s46);
                 break;
-*/
             case "s47":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s47);
                 break;
-/*
             case "s48":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s48);
                 break;
             case "s49":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s49);
                 break;
-*/
             case "s50":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s50);
                 break;
-/*
             case "s51":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s51);
                 break;
@@ -249,18 +220,15 @@ public final class CommonUtilities {
             case "s54":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s54);
                 break;
-*/
             case "s55":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s55);
                 break;
             case "s56":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s56);
                 break;
-/*
             case "s57":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s57);
                 break;
-*/
             case "s58":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s58);
                 break;
@@ -291,7 +259,6 @@ public final class CommonUtilities {
             case "s67":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s67);
                 break;
-/*
             case "s68":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s68);
                 break;
@@ -301,32 +268,27 @@ public final class CommonUtilities {
             case "s70":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s70);
                 break;
-*/
             case "s71":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s71);
                 break;
             case "s72":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s72);
                 break;
-/*
             case "s73":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s73);
                 break;
             case "s74":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s74);
                 break;
-*/
             case "s75":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s75);
                 break;
             case "s76":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s76);
                 break;
-/*
             case "s77":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s77);
                 break;
-*/
             case "s78":
                 mPlayer2 = MediaPlayer.create(context, R.raw.s78);
                 break;
@@ -449,7 +411,8 @@ public final class CommonUtilities {
         String[] romanTitles = {"Al-Fatihah", "Al-Baqarah", "Al-'Imran", "An-Nisa'", "Al-Ma'idah", "Al-An'am", "Al-A'raf", "Al-Anfal",
                 "Al-Bara'at / At-Taubah", "Yunus", "Hud", "Yusuf", "Ar-Ra'd", "Ibrahim", "Al-Hijr", "An-Nahl", "al-Isra'", "Al-Kahf",
                 "Maryam", "Ta Ha", "Al-Anbiya'", "Al-Hajj", "Al-Mu'minun", "An-Nur", "Al-Furqan", "Ash-Shu'ara'", "An-Naml", "Al-Qasas", "Al-'Ankabut",
-                "Ar-Rum", "Luqman", "As-Sajdah", "Al-Ahzab", "Al-Saba'", "Al-Fatir / Al-Mala'ikah", "Ya Sin", "As-Saffat", "Sad", "Az-Zumar", "Al-Ghafir / Al-Mu'min", "Ha Mim / Fussilat",
+                "Ar-Rum", "Luqman", "As-Sajdah", "Al-Ahzab", "Al-Saba'", "Al-Fatir / Al-Mala'ikah", "Ya Sin", "As-Saffat", "Sad", "Az-Zumar",
+                "Al-Ghafir / Al-Mu'min", "Ha Mim / Fussilat",
                 "Ash-Shura", "Az-Zukhruf", "Ad-Dukhan", "Al-Jathiyah", "Al-Ahqaf", "Muhammad", "Al-Fath", "Al-Hujurat", "Qaf", "Ad-Dhariyat",
                 "At-Tur", "An-Najm", "Al-Qamar", "Ar-Rahman", "Al-Waqi'ah", "Al-Hadid", "Al-Mujadilah", "Al-Hashr", "Al-Mumtahanah",
                 "As-Saff", "Al-Jumu'ah", "Al-Munafiqun", "At-Taghabun", "At-Talaq", "At-Tahrim", "Al-Mulk", "Al-Qalam", "Al-Haqqah",
@@ -477,31 +440,132 @@ public final class CommonUtilities {
     }
 
     public static String getSurahEnglishTitles(int i) {
-        String[] englishTitles = {"The Opening", "The Cow", "The Family of Imran", "The Women", "The Table", "The Cattle", "The Heights",
-                "The Spoils of War", "The Repentance", "Yunus", "Hud", "Yusuf", "The Thunder", "Ibrahim", "The Rocky Tract", "The Bees",
-                "The Night Journey", "The Cave", "Maryam", "Ta Ha", "The Prophets'", "The Pilgrimage", "The Believers", "The Light",
-                "The Criterion", "The Poets", "The Ants", "The Stories", "The Spider", "The Romans", "Luqman", "The Prostration",
-                "The Combined Forces", "The Sabeans", "The Originator / The Angels", "Ya Sin", "Those Ranges in Ranks", "Sad", "The Groups", "The Forgiver",
-                "Distinguished", "The Consultation", "The Gold", "The Smoke", "The Kneeling", "Muhammad", "The Victory",
-                "The Dwellings", "Qaf", "The Scatterers", "The Mount", "The Star", "The Moon", "The Most Gracious", "The Event",
-                "The Iron", "The Pleading", "The GaThering", "The Tested", "The Row", "Friday", "The Hypocrites", "The Loss & Gain",
-                "The Divorce", "The Prohibition", "The Kingdom", "The Pen", "The Inevitable", "The Elevated Passages", "Nuh", "The Jinn",
-                "The Wrapped", "The Cloaked", "The Resurrection", "The Human/ The Time", "Those Sent Forth", "The Great News", "Those Who Pull Out",
-                "He Frowned", "The Overthrowing", "The Cleaving", "Those Who Deal in Fraud", "The Splitting Asunder", "The Stars",
-                "The Nightcomer", "The Most High", "The Overwhelming", "The Dawn", "The City", "The Sun", "The Night", "The Forenoon",
-                "The Opening Forth", "The Fig", "The Clot", "The Night of Decree", "The Proof", "The Earthquake", "The Runners",
-                "The Striking Hour", "The Piling Up", "The Time", "The Slanderer", "The Elephant", "Quraish", "The Assistance",
-                "The River of Abundance", "The Disbelievers", "The Help", "The Palm Fiber", "The Sincerity", "The Daybreak", "Mankind"};
+        String[] englishTitles = {
+                "The Opening",
+                "The Cow",
+                "The Family of Imran",
+                "The Women",
+                "The Table",
+                "The Cattle",
+                "The Heights",
+                "The Spoils of War",
+                "The Repentance",
+                "Yunus",
+                "Hud",
+                "Yusuf",
+                "The Thunder",
+                "Ibrahim",
+                "The Rocky Tract",
+                "The Bees",
+                "The Night Journey",
+                "The Cave",
+                "Maryam",
+                "Ta Ha",
+                "The Prophets'",
+                "The Pilgrimage",
+                "The Believers",
+                "The Light",
+                "The Criterion",
+                "The Poets",
+                "The Ants",
+                "The Stories",
+                "The Spider",
+                "The Romans",
+                "Luqman",
+                "The Prostration",
+                "The Combined Forces",
+                "The Sabeans",
+                "The Originator / The Angels",
+                "Ya Sin",
+                "Those Ranges in Ranks",
+                "Ṣād",
+                "The Groups",
+                "The Forgiver",
+                "Distinguished",
+                "The Consultation",
+                "The Gold",
+                "The Smoke",
+                "The Kneeling",
+                "The Winding Sand Tracks",
+                "Muhammad",
+                "The Victory",
+                "The Dwellings",
+                "Qaf",
+                "The Scatterers",
+                "The Mount",
+                "The Star",
+                "The Moon",
+                "The Most Gracious",
+                "The Event",
+                "The Iron",
+                "The Pleading",
+                "The Gathering",
+                "The Tested",
+                "The Ranks",
+                "Friday / The Day of Congregation",
+                "The Hypocrites",
+                "The Loss & Gain",
+                "Divorce",
+                "The Prohibition",
+                "The Kingdom",
+                "The Pen",
+                "The Inevitable Truth",
+                "The Elevated Passages",
+                "Nuh",
+                "The Jinn",
+                "The Enwrapped One",
+                "The Cloaked One",
+                "Resurrection",
+                "The Human/ The Time",
+                "Those Sent Forth",
+                "The Great News",
+                "Those Who Pull Out",
+                "He Frowned",
+                "The Overthrowing",
+                "The Cleaving",
+                "Those Who Deal in Fraud",
+                "The Splitting Asunder",
+                "The Stars",
+                "The Nightcomer",
+                "The Most High",
+                "The Overwhelming",
+                "The Dawn",
+                "The City",
+                "The Sun",
+                "The Night",
+                "The Forenoon",
+                "The Opening Forth",
+                "The Fig",
+                "The Clot",
+                "The Night of Decree",
+                "The Proof",
+                "The Earthquake",
+                "The Runners",
+                "The Striking Hour",
+                "The Piling Up",
+                "The Time",
+                "The Slanderer",
+                "The Elephant",
+                "Quraish",
+                "The Assistance",
+                "The River of Abundance",
+                "The Disbelievers",
+                "The Help",
+                "The Palm Fiber",
+                "The Sincerity",
+                "The Daybreak",
+                "Mankind"
+        };
         return englishTitles[i];
     }
 
     public static int getSurahNumber(int i) {
-        int[] Number = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
-                22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44,
-                45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66,
-                67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89,
-                90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110,
-                111, 112, 113, 114};
+        int[] Number = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+                21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
+                41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60,
+                61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80,
+                81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100,
+                101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114};
         return Number[i];
     }
 
@@ -540,5 +604,3 @@ public final class CommonUtilities {
     }
 
 }
-
-
