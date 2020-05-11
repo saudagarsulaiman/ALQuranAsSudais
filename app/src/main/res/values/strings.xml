@@ -104,23 +104,33 @@
     <string name="app_name">Al Qur\'an - Offline By "As Sudais"</string>
     <string name="recited_by">Abd ar-Rahman ibn ʻAbd al-Aziz as-Sudais</string>
     <string name="recited_by_name">Reciter : Abd ar-Rahman ibn ʻAbd al-Aziz as-Sudais</string>
-    <string name="version_num">1.0</string>
+    <string name="version_num">1.0.1</string>
     <string name="app_url">https://play.google.com/store/apps/details?id=com.alquran.assudais</string>
     <string name="my_privacy_policy">https://al-quran-as-sudais.flycricket.io/privacy.html</string>
     <string name="my_website">https://al-quran-as-sudais.flycricket.io/</string>
-
+    <string name="any_more_suggestions">Any More Suggestions ? Please Let Me Know.</string>
+    <string name="note">Note :</string>
+    <string name="donation">Donation</string>
+    <string name="donation_ayat1">Allah says in the Holy Quran Chapter 2 Surah Baqarah, verse 254 :  \"O ye who beleive, spend of the wealth We have bestowed upon you (in Allah\'s way), before the Day comes when there shall be no buying and no selling; when neither friendship nor intercession will be of any avail.\"</string>
+    <string name="donation_ayat2">Allah says in the Holy Quran Chapter 2 Surah Baqarah verse 274:  \"Those who spend of their goods (in charity) by night and by day in secret and in public shall have their reward with their Lord: on them shall be no fear nor shall they grieve.\"</string>
+    <string name="bank_acc_details">Bank Account Details</string>
+    <string name="acc_holder">Account Holder</string>
+    <string name="ifsc">IFSC</string>
+    <string name="ifsc_code">KKBK0007849</string>
+    <string name="acc_number">Account Number</string>
+    <string name="acc_num">2112381992</string>
+    <string name="upi_handle">UPI Handle</string>
+    <string name="upi_handle_code">7207579969@kotak</string>
+    <string name="note_donations">I have received many donation appeals from near and dears and could not help in fulfilling their needs all alone, so i have thought to take help from whoever want to help. May Allah Accept All Our Efforts. Allahumm aameen.</string>
+    <string name="note_donations1">Note : In Shaa Allah, Every Single Penny Will Be Used In Helping The Needy.</string>
+    <string name="donation_names">Charity / صدقة‎</string>
 
     <!--    Whats New?-->
-    <!--    <string name="whats_New1">1. Now User can Turn On / Off the salaam sound at App Launch.</string>-->
-    <!--    <string name="whats_New2">2. User can Add bookmarks in "Read Quran" Section.</string>-->
-    <!--    <string name="whats_New3">3. User can see what para he has last reopened.</string>-->
-    <!--    <string name="whats_New4">4. User can download other apps from "Similar Apps" Section.</string>-->
-    <!--    <string name="whats_New5">5. User can contact me directly from application with just a click from Dev Info.</string>-->
-    <!--    <string name="whats_New6">6. Screen Never Sleeps during Reading Quran.</string>-->
-    <!--    <string name="whats_New7">7. Bugs Fixes.</string>-->
-    <!--    <string name="any_more_suggestions">Any More Suggestions ? Please Let Me Know.</string>-->
-    <!--    <string name="note_surah1">1. Some Surahs Are Not Available In The List in \"Listen Quran\" section due to App Size Limitations In Google Play Store.</string>-->
-    <!--    <string name="note_surah2">2. All Surahs are available in \"Read Quran\" Section.</string>-->
-    <!--    <string name="note">Note :</string>-->
-
+    <string name="whats_New1">1. User can now make Charitable Donations.</string>
+    <string name="whats_New2">2. User can download other apps from "Similar Apps" Section.</string>
+    <string name="whats_New3">3. Now App supports Kitkat Versions too!</string>
+    <string name="whats_New4">4. </string>
+    <string name="whats_New5">5. </string>
+    <string name="whats_New6">6. </string>
+    <string name="whats_New7">7. </string>
 </resources>

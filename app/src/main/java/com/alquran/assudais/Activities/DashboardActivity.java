@@ -34,6 +34,8 @@ public class DashboardActivity extends AppCompatActivity {
     LinearLayout lnr_other_apps;
     @BindView(R.id.lnr_whatsnew)
     LinearLayout lnr_whatsnew;
+    @BindView(R.id.lnr_donation)
+    LinearLayout lnr_donation;
     @BindView(R.id.img_app_info)
     ImageView img_app_info;
     @BindView(R.id.img_share)
@@ -81,6 +83,13 @@ public class DashboardActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 whatsnewDialog();
+            }
+        });
+        lnr_donation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(DashboardActivity.this, DonationActivity.class);
+                startActivity(intent);
             }
         });
 

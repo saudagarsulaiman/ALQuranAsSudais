@@ -9,7 +9,9 @@
         android:layout_height="match_parent"
         android:orientation="horizontal"
         android:paddingStart="@dimen/padding10"
-        android:paddingEnd="@dimen/def_padding">
+        android:paddingEnd="@dimen/def_padding"
+        android:paddingLeft="@dimen/padding10"
+        android:paddingRight="@dimen/def_padding">
 
         <ImageView
             android:id="@+id/img_tlbr_back"
@@ -18,7 +20,8 @@
             android:layout_alignParentStart="true"
             android:layout_centerInParent="true"
             android:layout_gravity="center"
-            android:src="@drawable/back_white" />
+            android:src="@drawable/back_white"
+            android:layout_alignParentLeft="true" />
 
         <com.alquran.assudais.Utilities.AutoScrollableTextView
             android:id="@+id/txt_tlbr_title"
@@ -33,7 +36,9 @@
             android:singleLine="true"
             android:textColor="@color/white"
             android:textSize="@dimen/def_lbl_size"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:layout_toLeftOf="@+id/img_tlbr_bookmark"
+            android:layout_toRightOf="@+id/img_tlbr_back" />
 
         <ImageView
             android:id="@+id/img_tlbr_bookmark"
@@ -43,7 +48,8 @@
             android:layout_centerInParent="true"
             android:layout_gravity="center"
             android:src="@drawable/bookmark"
-            android:visibility="invisible" />
+            android:visibility="invisible"
+            android:layout_alignParentRight="true" />
 
     </RelativeLayout>
 

@@ -41,7 +41,7 @@
                     android:textColor="@color/bg_grad_end_g1"
                     android:textSize="@dimen/text22"
                     android:textStyle="bold" />
-<!--
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -60,7 +60,8 @@
                     android:padding="@dimen/padding5"
                     android:text="@string/whats_New2"
                     android:textColor="@color/black"
-                    android:textSize="@dimen/def_text_size" />
+                    android:textSize="@dimen/def_text_size"
+                    android:visibility="visible" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -70,7 +71,8 @@
                     android:padding="@dimen/padding5"
                     android:text="@string/whats_New3"
                     android:textColor="@color/black"
-                    android:textSize="@dimen/def_text_size" />
+                    android:textSize="@dimen/def_text_size"
+                    android:visibility="visible" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -80,7 +82,8 @@
                     android:padding="@dimen/padding5"
                     android:text="@string/whats_New4"
                     android:textColor="@color/black"
-                    android:textSize="@dimen/def_text_size" />
+                    android:textSize="@dimen/def_text_size"
+                    android:visibility="gone" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -90,7 +93,8 @@
                     android:padding="@dimen/padding5"
                     android:text="@string/whats_New5"
                     android:textColor="@color/black"
-                    android:textSize="@dimen/def_text_size" />
+                    android:textSize="@dimen/def_text_size"
+                    android:visibility="gone" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -100,7 +104,8 @@
                     android:padding="@dimen/padding5"
                     android:text="@string/whats_New6"
                     android:textColor="@color/black"
-                    android:textSize="@dimen/def_text_size" />
+                    android:textSize="@dimen/def_text_size"
+                    android:visibility="gone" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -110,7 +115,8 @@
                     android:padding="@dimen/padding5"
                     android:text="@string/whats_New7"
                     android:textColor="@color/black"
-                    android:textSize="@dimen/def_text_size" />
+                    android:textSize="@dimen/def_text_size"
+                    android:visibility="gone" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -124,38 +130,6 @@
                     android:textSize="@dimen/def_lbl_size"
                     android:textStyle="italic" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="@dimen/margin10"
-                    android:gravity="start"
-                    android:padding="@dimen/padding5"
-                    android:text="@string/note"
-                    android:textColor="@color/bg_grad_end_g1"
-                    android:textSize="@dimen/def_lbl_size"
-                    android:textStyle="italic" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:gravity="start"
-                    android:text="@string/note_surah1"
-                    android:textColor="@color/bg_grad_end_g1"
-                    android:textSize="@dimen/def_lbl_size"
-                    android:textStyle="italic" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:gravity="start"
-                    android:layout_marginTop="@dimen/margin5"
-                    android:text="@string/note_surah2"
-                    android:textColor="@color/bg_grad_end_g1"
-                    android:textSize="@dimen/def_lbl_size"
-                    android:textStyle="italic" />-->
 
             </LinearLayout>
 
