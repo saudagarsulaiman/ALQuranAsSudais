@@ -228,6 +228,16 @@
                 android:textSize="@dimen/def_lbl_size"
                 android:textStyle="italic" />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/def_margin"
+                android:text="@string/my_request3"
+                android:textColor="@color/bg_grad_start"
+                android:textSize="@dimen/def_lbl_size"
+                android:textStyle="italic|bold" />
+
         </LinearLayout>
 
         <Button

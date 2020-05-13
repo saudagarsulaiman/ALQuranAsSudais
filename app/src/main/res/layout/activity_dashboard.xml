@@ -213,9 +213,9 @@
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/margin5"
             android:gravity="center"
-            android:text="@string/donation"
+            android:text="@string/sadkha_names"
             android:textColor="@color/white"
-            android:textSize="@dimen/def_hint_size"
+            android:textSize="@dimen/def_text_size"
             android:textStyle="bold" />
 
     </LinearLayout>

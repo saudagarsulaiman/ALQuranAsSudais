@@ -70,7 +70,7 @@
                         android:layout_alignParentLeft="true"
                         android:layout_centerInParent="true"
                         android:gravity="center"
-                        android:text="@string/bank_acc_details"
+                        android:text="@string/details"
                         android:textColor="@color/bg_grad_start"
                         android:textSize="@dimen/def_text_size"
                         android:textStyle="bold" />
@@ -93,120 +93,11 @@
                     android:orientation="vertical"
                     android:visibility="gone">
 
-                    <LinearLayout
+                    <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/margin5"
-                        android:orientation="horizontal"
-                        android:weightSum="1">
-
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:layout_weight="0.4"
-                            android:text="@string/acc_holder"
-                            android:textColor="@color/bg_grad_start"
-                            android:textSize="@dimen/def_text_size" />
-
-                        <com.alquran.assudais.Utilities.AutoScrollableTextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:layout_weight="0.6"
-                            android:text="@string/sss"
-                            android:textColor="@color/bg_grad_start"
-                            android:textSize="@dimen/def_lbl_size"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/margin5"
-                        android:orientation="horizontal"
-                        android:weightSum="1">
-
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:layout_weight="0.4"
-                            android:text="@string/ifsc"
-                            android:textColor="@color/bg_grad_start"
-                            android:textSize="@dimen/def_text_size" />
-
-                        <com.alquran.assudais.Utilities.AutoScrollableTextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:layout_weight="0.6"
-                            android:text="@string/ifsc_code"
-                            android:textColor="@color/bg_grad_start"
-                            android:textSize="@dimen/def_lbl_size"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/margin5"
-                        android:orientation="horizontal"
-                        android:weightSum="1">
-
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:layout_weight="0.4"
-                            android:text="@string/acc_number"
-                            android:textColor="@color/bg_grad_start"
-                            android:textSize="@dimen/def_text_size" />
-
-                        <com.alquran.assudais.Utilities.AutoScrollableTextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:layout_weight="0.6"
-                            android:text="@string/acc_num"
-                            android:textColor="@color/bg_grad_start"
-                            android:textSize="@dimen/def_lbl_size"
-                            android:textStyle="bold" />
-
-
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/margin5"
-                        android:orientation="horizontal"
-                        android:weightSum="1">
-
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:layout_weight="0.4"
-                            android:text="@string/upi_handle"
-                            android:textColor="@color/bg_grad_start"
-                            android:textSize="@dimen/def_text_size" />
-
-                        <com.alquran.assudais.Utilities.AutoScrollableTextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:layout_weight="0.6"
-                            android:text="@string/upi_handle_code"
-                            android:textColor="@color/bg_grad_start"
-                            android:textSize="@dimen/def_lbl_size"
-                            android:textStyle="bold" />
-
-                    </LinearLayout>
+                        android:layout_height="@dimen/height100"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/my_details" />
 
                     <TextView
                         android:layout_width="match_parent"

@@ -1,12 +1,12 @@
 package com.alquran.assudais.Activities;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.alquran.assudais.R;
 import com.alquran.assudais.Utilities.AutoScrollableTextView;
@@ -30,13 +30,14 @@ public class DonationActivity extends AppCompatActivity {
 
     boolean isBankDetailsVisible = false;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_donation);
         ButterKnife.bind(this);
 
-        txt_tlbr_title.setText(getResources().getString(R.string.donation_names));
+        txt_tlbr_title.setText(getResources().getString(R.string.sadkha_names));
         img_tlbr_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -58,7 +59,6 @@ public class DonationActivity extends AppCompatActivity {
                 }
             }
         });
-
 
     }
 }
