@@ -91,13 +91,17 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:visibility="gone">
+                    android:visibility="visible">
 
-                    <ImageView
+                    <TextView
                         android:layout_width="match_parent"
-                        android:layout_height="@dimen/height100"
-                        android:scaleType="fitCenter"
-                        android:src="@drawable/my_details" />
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/margin10"
+                        android:text="@string/note_donations0"
+                        android:textColor="@color/bg_grad_start"
+                        android:textSize="@dimen/def_text_size"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="match_parent"
