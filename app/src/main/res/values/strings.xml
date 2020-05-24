@@ -101,15 +101,10 @@
     <string name="my_request3">NOTE : \"I request you to call me if it\'s emergency or its  important. Else kindly send message/voice message in email or whatsapp. In Shaa Allah, i will probably respond asap!\"</string>
     <string name="any_more_suggestions">Any More Suggestions ? Please Let Me Know.</string>
     <string name="note">Note :</string>
-    <string name="donation_ayat1">Allah says in the Holy Quran Chapter 2 Surah Baqarah, verse 254 :  \"O ye who believe, spend of the wealth We have bestowed upon you (in Allah\'s way), before the Day comes when there shall be no buying and no selling; when neither friendship nor intercession will be of any avail.\"</string>
-    <string name="donation_ayat2">Allah says in the Holy Quran Chapter 2 Surah Baqarah verse 274:  \"Those who spend of their goods (in charity) by night and by day in secret and in public shall have their reward with their Lord: on them shall be no fear nor shall they grieve.\"</string>
-    <string name="note_donations">I have received many donation appeals from near and dears and could not help in fulfilling their needs all alone, so i have thought to take help from whoever want to help. May Allah Accept All Our Efforts. Allahumm aameen.</string>
-    <string name="note_donations1">Note : In Shaa Allah, Every Single Penny Will Be Used In Helping The Needy.</string>
-    <string name="sadkha_names">Charity / صدقة‎</string>
     <string name="details">Details‎</string>
     <string name="qibla_direction">Qibla Direction</string>
     <string name="al_quran_reciters">https://drive.google.com/open?id=18_4kFUrjwBIf2KZkeNxu3MUmIJ-KGVES</string>
-    <string name="my_donation_website">https://saudagarsulaiman.wixsite.com/helpinghanddonation</string>
+    <string name="my_helping_hand_website">https://saudagarsulaiman.wixsite.com/helpinghanddonation</string>
 
 
     <!--  Changes To Be Done When Refractoring  -->
@@ -122,12 +117,11 @@
     <string name="my_website">https://al-quran-as-sudais.flycricket.io/</string>
 
     <!--    Whats New?-->
-    <string name="whats_New1">1. User can now make Charitable Donations.</string>
+    <string name="whats_New1">1. Be Helping Hand To A Needy.</string>
     <string name="whats_New2">2. User can now read Quran in Landscape Mode (Horizontal Mode).</string>
     <string name="whats_New3">3. User can download other apps from "Similar Apps" Section.</string>
     <string name="whats_New4">4. Now App supports Kitkat Versions too!</string>
     <string name="whats_New5">5. Qibla Direction is Available now!</string>
     <string name="whats_New6">6. </string>
     <string name="whats_New7">7. </string>
-    <string name="note_donations0">Please Contact Developer. Jazak Allahu Khair</string>
 </resources>

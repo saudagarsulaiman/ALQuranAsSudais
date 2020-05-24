@@ -165,87 +165,44 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/lnr_whatsnew"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/def_margin"
-        android:orientation="vertical"
-        android:padding="@dimen/def_padding">
-
-        <ImageView
-            android:layout_width="@dimen/width35"
-            android:layout_height="@dimen/height35"
-            android:layout_gravity="center"
-            android:src="@drawable/whatsnew" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="@dimen/margin5"
-            android:gravity="center"
-            android:text="@string/whats_New"
-            android:textColor="@color/white"
-            android:textSize="@dimen/def_hint_size"
-            android:textStyle="bold" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/lnr_donation"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="@dimen/def_margin"
-        android:orientation="vertical"
-        android:padding="@dimen/def_padding">
-
-        <ImageView
-            android:layout_width="@dimen/width35"
-            android:layout_height="@dimen/height35"
-            android:layout_gravity="center"
-            android:src="@drawable/donation" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="@dimen/margin5"
-            android:gravity="center"
-            android:text="@string/sadkha_names"
-            android:textColor="@color/white"
-            android:textSize="@dimen/def_text_size"
-            android:textStyle="bold" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/lnr_qibla_direction"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="@dimen/margin30"
-        android:orientation="vertical"
-        android:padding="@dimen/def_padding">
+        android:layout_marginTop="@dimen/margin40"
+        android:orientation="horizontal"
+        android:weightSum="4">
 
         <ImageView
-            android:layout_width="@dimen/width35"
-            android:layout_height="@dimen/height35"
+            android:id="@+id/img_whatsnew"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height40"
             android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/whatsnew" />
+
+        <ImageView
+            android:id="@+id/img_qibla_direction"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height45"
+            android:layout_gravity="center"
+            android:layout_weight="1"
             android:src="@drawable/dial" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <ImageView
+            android:id="@+id/img_helping_hands"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height40"
             android:layout_gravity="center"
-            android:layout_marginTop="@dimen/margin5"
-            android:gravity="center"
-            android:text="@string/qibla_direction"
-            android:textColor="@color/white"
-            android:textSize="@dimen/def_text_size"
-            android:textStyle="bold" />
+            android:layout_weight="1"
+            android:src="@drawable/helping_hand" />
+
+        <ImageView
+            android:id="@+id/img_prayer_timing"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/height45"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/prayer_timing" />
 
     </LinearLayout>
 

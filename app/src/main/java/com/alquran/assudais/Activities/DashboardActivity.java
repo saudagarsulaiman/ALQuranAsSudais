@@ -33,12 +33,14 @@ public class DashboardActivity extends AppCompatActivity {
     LinearLayout lnr_listen_quran;
     @BindView(R.id.lnr_other_apps)
     LinearLayout lnr_other_apps;
-    @BindView(R.id.lnr_whatsnew)
-    LinearLayout lnr_whatsnew;
-    @BindView(R.id.lnr_donation)
-    LinearLayout lnr_donation;
-    @BindView(R.id.lnr_qibla_direction)
-    LinearLayout lnr_qibla_direction;
+    @BindView(R.id.img_whatsnew)
+    ImageView img_whatsnew;
+    @BindView(R.id.img_helping_hands)
+    ImageView img_helping_hands;
+    @BindView(R.id.img_qibla_direction)
+    ImageView img_qibla_direction;
+    @BindView(R.id.img_prayer_timing)
+    ImageView img_prayer_timing;
     @BindView(R.id.img_app_info)
     ImageView img_app_info;
     @BindView(R.id.img_share)
@@ -82,17 +84,27 @@ public class DashboardActivity extends AppCompatActivity {
             }
         });
 
-        lnr_whatsnew.setOnClickListener(new View.OnClickListener() {
+        img_whatsnew.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 whatsnewDialog();
             }
         });
-        lnr_donation.setOnClickListener(new View.OnClickListener() {
+        img_helping_hands.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(DashboardActivity.this, DonationActivity.class);
-                startActivity(intent);
+                try {
+                    if (CommonUtilities.isConnectionAvailable(DashboardActivity.this)) {
+                        Intent intent = new Intent(Intent.ACTION_VIEW);
+                        intent.setData(Uri.parse(getResources().getString(R.string.my_helping_hand_website)));
+                        startActivity(intent);
+                    } else {
+                        CommonUtilities.ShowToastMessage(DashboardActivity.this, getResources().getString(R.string.internetconnection));
+                    }
+                } catch (Exception e) {
+                    Toast.makeText(DashboardActivity.this, getResources().getString(R.string.pls_try_again), Toast.LENGTH_LONG).show();
+                    e.printStackTrace();
+                }
             }
         });
 
@@ -132,7 +144,7 @@ public class DashboardActivity extends AppCompatActivity {
             }
         });
 
-        lnr_qibla_direction.setOnClickListener(new View.OnClickListener() {
+        img_qibla_direction.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (CommonUtilities.checkPermissions(DashboardActivity.this)) {
@@ -158,6 +170,12 @@ public class DashboardActivity extends AppCompatActivity {
             }
         });
 
+        img_prayer_timing.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                CommonUtilities.ShowToastMessage(DashboardActivity.this, "Coming Soon!");
+            }
+        });
     }
 
     private void whatsnewDialog() {

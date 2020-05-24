@@ -21,7 +21,6 @@
         android:roundIcon="@drawable/app_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activities.DonationActivity"></activity>
         <activity
             android:name=".Activities.SimilarAppsListActivity"
             android:screenOrientation="portrait" />
