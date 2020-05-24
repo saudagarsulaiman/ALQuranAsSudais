@@ -1,15 +1,19 @@
 package com.alquran.assudais.Activities;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.alquran.assudais.R;
 import com.alquran.assudais.Utilities.AutoScrollableTextView;
+import com.alquran.assudais.Utilities.CommonUtilities;
 import com.squareup.picasso.Picasso;
 
 import butterknife.BindView;
@@ -48,16 +52,18 @@ public class DonationActivity extends AppCompatActivity {
         rltv_bank_dropdown.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (isBankDetailsVisible) {
-                    isBankDetailsVisible = false;
-                    Picasso.get().load(R.drawable.arrow_right).into(img_bank_dropdown);
-                    lnr_bank_dropdown.setVisibility(View.GONE);
-                } else {
-                    isBankDetailsVisible = true;
-                    Picasso.get().load(R.drawable.arrow_down).into(img_bank_dropdown);
-                    lnr_bank_dropdown.setVisibility(View.VISIBLE);
-                }
-            }
+                try {
+                    if (CommonUtilities.isConnectionAvailable(DonationActivity.this)) {
+                        Intent intent = new Intent(Intent.ACTION_VIEW);
+                        intent.setData(Uri.parse(getResources().getString(R.string.my_donation_website)));
+                        startActivity(intent);
+                    } else {
+                        CommonUtilities.ShowToastMessage(DonationActivity.this, getResources().getString(R.string.internetconnection));
+                    }
+                } catch (Exception e) {
+                    Toast.makeText(DonationActivity.this, getResources().getString(R.string.pls_try_again), Toast.LENGTH_LONG).show();
+                    e.printStackTrace();
+                }            }
         });
 
     }

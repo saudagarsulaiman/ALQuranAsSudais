@@ -83,7 +83,7 @@
                     android:text="@string/whats_New4"
                     android:textColor="@color/black"
                     android:textSize="@dimen/def_text_size"
-                    android:visibility="gone" />
+                    android:visibility="visible" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -94,7 +94,7 @@
                     android:text="@string/whats_New5"
                     android:textColor="@color/black"
                     android:textSize="@dimen/def_text_size"
-                    android:visibility="gone" />
+                    android:visibility="visible" />
 
                 <TextView
                     android:layout_width="match_parent"

@@ -21,6 +21,7 @@ import com.alquran.assudais.R;
 import com.alquran.assudais.Utilities.AutoScrollableTextView;
 import com.alquran.assudais.Utilities.CommonUtilities;
 import com.alquran.assudais.Utilities.MyApplication;
+import com.hassanjamil.hqibla.CompassActivity;
 import com.orhanobut.dialogplus.DialogPlus;
 import com.orhanobut.dialogplus.ViewHolder;
 
@@ -36,6 +37,8 @@ public class DashboardActivity extends AppCompatActivity {
     LinearLayout lnr_whatsnew;
     @BindView(R.id.lnr_donation)
     LinearLayout lnr_donation;
+    @BindView(R.id.lnr_qibla_direction)
+    LinearLayout lnr_qibla_direction;
     @BindView(R.id.img_app_info)
     ImageView img_app_info;
     @BindView(R.id.img_share)
@@ -126,6 +129,32 @@ public class DashboardActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 MyApplication.setSALAAMSOUND(isChecked);
+            }
+        });
+
+        lnr_qibla_direction.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (CommonUtilities.checkPermissions(DashboardActivity.this)) {
+                    Intent intent = new Intent(DashboardActivity.this, CompassActivity.class);
+/*
+                intent.putExtra(Constants.TOOLBAR_TITLE, getResources().getText(R.string.app_name));		// Toolbar Title
+                intent.putExtra(Constants.TOOLBAR_BG_COLOR,  getResources().getColor(R.color.colorPrimaryDark));		// Toolbar Background color
+                intent.putExtra(Constants.TOOLBAR_TITLE_COLOR,  getResources().getColor(R.color.white));	// Toolbar Title color
+                intent.putExtra(Constants.COMPASS_BG_COLOR,  getResources().getColor(R.color.colorPrimaryDark));		// Compass background color
+                intent.putExtra(Constants.ANGLE_TEXT_COLOR,  getResources().getColor(R.color.white));		// Angle Text color
+                intent.putExtra(Constants.DRAWABLE_DIAL, R.drawable.dial);	// Your dial drawable resource
+                intent.putExtra(Constants.DRAWABLE_QIBLA, R.drawable.qibla); 	// Your qibla indicator drawable resource
+                intent.putExtra(Constants.FOOTER_IMAGE_VISIBLE, View.VISIBLE*/
+                    /*|View.INVISIBLE|View.GONE*//*
+);	// Footer World Image visibility
+                intent.putExtra(Constants.LOCATION_TEXT_VISIBLE, View.VISIBLE*/
+                    /*|View.INVISIBLE|View.GONE*//*
+); // Location Text visibility
+*/
+                    startActivity(intent);
+                } else
+                    CommonUtilities.getPermissions(DashboardActivity.this, DashboardActivity.this);
             }
         });
 

@@ -55,6 +55,7 @@ public class SimilarAppsListActivity extends AppCompatActivity {
 
     private void setAppList() {
         allAppsList = new ArrayList<>();
+        allAppsList.add(new SimilarAppsList("Al Qur'an - Offline By Different Reciters", getResources().getString(R.string.al_quran_reciters), R.drawable.drive));
         allAppsList.add(new SimilarAppsList("Al Quran - Read or Listen Qur'an Offline", "https://play.google.com/store/apps/details?id=com.islam.alquran", R.drawable.alquran_read_listen_offline));
         allAppsList.add(new SimilarAppsList("Islam 360 - Prayer Times, Quran , Azan & Qibla", "https://play.google.com/store/apps/details?id=com.islam360&hl=en_IN", R.drawable.islam360));
         allAppsList.add(new SimilarAppsList("Al Quran MP3 - Quran Reading", "https://play.google.com/store/apps/details?id=com.QuranReading.qurannow", R.drawable.alquranmp3));

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AlQuran As Sudais.iml" filepath="$PROJECT_DIR$/AlQuran As Sudais.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AlQuran As Sudais.iml" filepath="$PROJECT_DIR$/AlQuran As Sudais.iml" group="AlQuran As Sudais" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="AlQuran As Sudais/app" />
     </modules>
   </component>
 </project>

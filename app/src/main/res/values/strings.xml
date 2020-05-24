@@ -107,23 +107,26 @@
     <string name="note_donations1">Note : In Shaa Allah, Every Single Penny Will Be Used In Helping The Needy.</string>
     <string name="sadkha_names">Charity / صدقة‎</string>
     <string name="details">Details‎</string>
+    <string name="qibla_direction">Qibla Direction</string>
+    <string name="al_quran_reciters">https://drive.google.com/open?id=18_4kFUrjwBIf2KZkeNxu3MUmIJ-KGVES</string>
+    <string name="my_donation_website">https://saudagarsulaiman.wixsite.com/helpinghanddonation</string>
 
 
     <!--  Changes To Be Done When Refractoring  -->
     <string name="app_name">Al Qur\'an - Offline By "As Sudais"</string>
     <string name="recited_by">Abd ar-Rahman ibn ʻAbd al-Aziz as-Sudais</string>
     <string name="recited_by_name">Reciter : Abd ar-Rahman ibn ʻAbd al-Aziz as-Sudais</string>
-    <string name="version_num">1.0.3</string>
+    <string name="version_num">1.0.6</string>
     <string name="app_url">https://play.google.com/store/apps/details?id=com.alquran.assudais</string>
     <string name="my_privacy_policy">https://al-quran-as-sudais.flycricket.io/privacy.html</string>
     <string name="my_website">https://al-quran-as-sudais.flycricket.io/</string>
 
     <!--    Whats New?-->
-    <string name="whats_New1">1. User can now do Charity / صدقة.</string>
-    <string name="whats_New2">2. User can download other apps from "Similar Apps" Section.</string>
-    <string name="whats_New3">3. Now App supports Kitkat Versions too!</string>
-    <string name="whats_New4">4. </string>
-    <string name="whats_New5">5. </string>
+    <string name="whats_New1">1. User can now make Charitable Donations.</string>
+    <string name="whats_New2">2. User can now read Quran in Landscape Mode (Horizontal Mode).</string>
+    <string name="whats_New3">3. User can download other apps from "Similar Apps" Section.</string>
+    <string name="whats_New4">4. Now App supports Kitkat Versions too!</string>
+    <string name="whats_New5">5. Qibla Direction is Available now!</string>
     <string name="whats_New6">6. </string>
     <string name="whats_New7">7. </string>
     <string name="note_donations0">Please Contact Developer. Jazak Allahu Khair</string>

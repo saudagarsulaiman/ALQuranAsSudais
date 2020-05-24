@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.orhanobut:dialogplus:1.11@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d33aafbf6acb3ef3a9c06e6811b54498/dialogplus-1.11/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d33aafbf6acb3ef3a9c06e6811b54498/dialogplus-1.11/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d48a704201fa8a9027c19c67bb0dfa02/jetified-dialogplus-1.11/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d48a704201fa8a9027c19c67bb0dfa02/jetified-dialogplus-1.11/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.orhanobut/dialogplus/1.11/56e6feff7f932fdd9308821b59da17d3987bec3/dialogplus-1.11-javadoc.jar!/" />
